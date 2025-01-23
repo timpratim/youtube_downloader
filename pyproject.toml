@@ -30,7 +30,7 @@ dependencies = [
 ]
 
 [project.scripts]
-yt-dl = "youtube_downloader:main"
+yt-dl = "youtube_downloader_pkg.__main__:main"
 
 [project.urls]
 Homepage = "https://github.com/yourusername/youtube_downloader"
